@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url("https://i3.wp.com/wallpaperaccess.com/full/7270381.gif?ssl=1");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card {
+    background-color: #1E1F22;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    padding-bottom: 70px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #E7EFFF;
+}
+h1 {
+    Font-family: "Segoe UI Semibold";
+    font-size: 30px;
+    color: white;
+}
+h2 {
+    Font-family: "Segoe UI Semibold";
+    font-size: 20px;
+    color: white;
+}
+p {
+    Font-family: "Segoe UI Light";
+    font-size: 16px;
+    color: white;
+    margin-bottom: 20px;
+}
+.button-ladder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+
+}
+
+.button-ladder a {
+    font-family: Monocode;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+    transition: background-color 0.3s ease;
+    animation: colorChange 3s infinite;
+    width: 300px;
+}
+
+.github {
+    background-color: #333;
+}
+
+.github:hover {
+    background-color: #221E20;
+}
+
+.telegram {
+    background-color: #0088cc;
+}
+
+.telegram:hover {
+    background-color: #0071A9;
+}
+
+.discord {
+    background-color: #7289da;
+}
+
+.discord:hover {
+    background-color: #5662F6;
+}
+
+.steam{
+    background: #094D7F;
+}
+.steam:hover{
+    background-color: #1B2E5A;
+}
